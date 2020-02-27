@@ -8,9 +8,9 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/go-forks/fsnotify"
+	"github.com/howeyc/fsnotify"
 
-	"github.com/metaleap/go-util/str"
+	ustr "github.com/wagner-aos/go-util/str"
 )
 
 //	A convenient wrapper around `go-forks/fsnotify.Watcher`.
